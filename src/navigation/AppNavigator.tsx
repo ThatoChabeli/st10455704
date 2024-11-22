@@ -1,9 +1,9 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import HomeScreen from '../../../screens/HomeScreen';
-import AddDishScreen from '../../../screens/AddDishScreen';
-import FinalScreen from '../../../screens/FinalScreen';
-import FilterScreen from '../../../screens/FilterScreen';
+import HomeScreen from '../../screens/HomeScreen';
+import AddDishScreen from '../../screens/AddDishScreen';
+import FinalScreen from '../../screens/FinalScreen';
+import FilterScreen from '../../screens/FilterScreen';
 
 type StackParamList = {
   Home: undefined;
